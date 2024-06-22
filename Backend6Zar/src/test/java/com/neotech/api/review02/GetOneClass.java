@@ -14,7 +14,7 @@ import io.restassured.specification.RequestSpecification;
 public class GetOneClass {
 
 	@Test
-	ublic void getOneClassTest() {
+	public void getOneClassTest() {
 
 		RestAssured.baseURI = APIConstants.Base_URI;
 
