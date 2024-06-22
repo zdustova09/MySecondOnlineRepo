@@ -11,7 +11,7 @@ import io.cucumber.junit.CucumberOptions;
 		glue = "com.neotech.steps",
 		dryRun = false,
 		monochrome = true,
-		tags = "@OneClass and @smoke",
+		tags = "@OneClass",
 		plugin = {
 					// "pretty", 
 					"html:target/cucumber-default-report.html",
